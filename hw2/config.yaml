@@ -1,0 +1,18 @@
+# Paths
+all_video_names: list/all.video
+video_path: /home/ubuntu/11775-hws/hw2_code/videos
+downsampled_videos: /home/ubuntu/11775-hws/hw2_code/downsampled_videos
+surf_features: /home/ubuntu/11775-hws/hw2_code/surf
+cnn_features: /home/ubuntu/11775-hws/hw2_code/cnn
+
+# downsampling
+downsampling_frame_len: 60
+downsampling_frame_rate: 15
+keyframe_interval: 10
+
+# surf
+hessian_threshold: 400
+kmeans_cluster_num_surf: 256
+
+#cnn
+kmeans_cluster_num_cnn: 64
